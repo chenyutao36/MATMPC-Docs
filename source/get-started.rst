@@ -19,7 +19,7 @@ Advanced features:
 
 For basic use, you don't need to install anything else. However, if you want to use the QP solver *HPIPM* and *IPOPT*, you need to follow the following steps.
 
-Comipler on Windows
+Compiler on Windows
 -------------------
 
 For Windows users who want to use *HPIPM*, a linux-like C compiler *MinGW* is necessary. To install it, follow the steps below:
@@ -28,15 +28,15 @@ For Windows users who want to use *HPIPM*, a linux-like C compiler *MinGW* is ne
 
 2. download msys2 at https://www.msys2.org/ (choose x86_64 for 64-bit system)
 
-3. run the MSYS2 installer, install MSYS2 at default path (e.g. C:\msys64)
+3. run the MSYS2 installer, install MSYS2 at default path (e.g. C:/msys64)
 
-4. open MSYS2 at C:\msys64\msys2_shell.bat
+4. open MSYS2 at C:/msys64/msys2_shell.bat
 
 5. type "pacman -Syuu" (may take a while, if get stucked at end, then just close this window)
 
 6. close and reopen msys2_shell.bat, type "pacman -S base-devel mingw-w64-x86_64-toolchain" (take some time)
 
-7. add "C:\msys64\usr\bin" and "C:\msys64\mingw64\bin" into system environment path (not user path)
+7. add "C:/msys64/usr/bin" and "C:/msys64/mingw64/bin" into system environment path (not user path)
 
 8. open a windows command window by using "cmd", type "gcc -v", if you get information about your gcc version, then you have installed MINGW successfully.
 
